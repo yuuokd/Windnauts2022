@@ -1,0 +1,55 @@
+/*============
+Photo Gallery
+==============*/
+.info-list{
+    columns: 3;/*段組みの数*/
+    padding:0 5px;/*ギャラリー左右に余白をつける*/
+    margin:0;
+    }
+    
+    .info-list li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+    list-style:none;
+    display:block;
+    }
+    
+    /*ギャラリー内のイメージは横幅100%にする*/
+    .info-list img{
+        width:100%;
+        height:auto;
+		vertical-align: bottom;/*画像の下にできる余白を削除*/
+        }
+
+@media screen and (max-width:650px){
+    .info-list{columns: 2;}
+}
+
+/*全て共通：hideエリアをはじめは非表示*/
+.hide-area{
+	display: none;
+}
+
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+	background:#ccc;	
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#666;
+}
+
+/*確認を促すモーダル：タイトルの色を変更したい場合*/
+#modaal-title{
+	font-size:1.2rem;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+/*動画表示のモーダル：余白を変更したい場合*/
+.modaal-video .modaal-inner-wrapper{
+	padding:0;
+}
