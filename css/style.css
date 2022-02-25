@@ -287,12 +287,10 @@ footer img{
 	.modaal-disap p{
 		display: none;
 	}
-	}
-
-@media screen and (max-width:350px){
-.header-disap{
-	display: none;
+	.header-disap{
+		display: none;
 }
+
 #contents h3 {
 	clear: both;
 	margin-top: 20px;
