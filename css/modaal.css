@@ -8,7 +8,7 @@ Photo Gallery
     }
     
     .info-list li {
-    margin-bottom: 20px;/*各画像下に余白をつける*/
+    margin-bottom: 0px;/*各画像下に余白をつける*/
     list-style:none;
     display:block;
     }

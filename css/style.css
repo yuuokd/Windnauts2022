@@ -31,7 +31,10 @@ h1{
 	display: inline-block;
 }
 h2,h3,h4,h5,ul,ol,li,dl,dt,dd {margin: 0px; padding: 0px; font-size: 1rem; font-weight: normal;}
-p{font-size: 1rem}
+p{
+	margin-top: 10px;
+	font-size: 1rem
+}
 p + p {
 	margin-top: 5px;
 }
